@@ -1,0 +1,25 @@
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.letters > * {
+    padding: 1rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.aboutMainDisplay {
+    flex: 3;
+}
