@@ -1,0 +1,27 @@
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.navMenu > * {
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 4rem;
+}
+.navMenu > *::after{
+    content: '';
+    background-color: var(--color-primary);
+    width: 9rem;
+    height: 6px;
+    margin: 1rem;
+    border-radius: 50px 0 50px 0;
+    display: inline-block;
+}
