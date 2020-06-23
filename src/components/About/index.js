@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
+import AboutImage from './AboutImage'
+import AboutText from './AboutText'
 
 export default function About() {
+
+    const [AboutObj, setAboutObj] = useState({
+        image : {
+                    src: "./headshot.jpg",
+                    alt: 'Ethan Byrd'
+                },
+                text : {
+                    p1: 'hi',
+                    p2: 'there'
+                }
+    });
     return (
         <div className='aboutContainer'>
             <div className='letters'>
@@ -12,8 +25,8 @@ export default function About() {
                 <span>t</span>
             </div>
             <div className='aboutMainDisplay'>
-                {/* < AboutImage /> */}
-                {/* < AboutText /> */}
+                < AboutImage props={AboutObj.image}/>
+                < AboutText props={AboutObj.text}/>
             </div>
         </div>
     )

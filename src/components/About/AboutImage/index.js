@@ -1,9 +1,10 @@
 import React from 'react'
+import './style.css'
 
-export default function AboutImage(props) {
+export default function AboutImage({src, alt}) {
     return (
         <div className='imageContainer'>
-            <img src={props.image.src} alt={props.image.alt} className="aboutImage"/>
+            <img src='./headshot.jpg' alt='Ethan Byrd' className="aboutImage"/>
         </div>
     )
 }
