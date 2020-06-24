@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Home from './components/Home'
 import About from './components/About'
+import Portfolio from './components/Portfolio'
 // import NavMenu from './components/NavMenu'
 // import Contact from './components/Contact'
-// import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       {/* < NavMenu/> */}
       < Home/>
       < About/>
-      {/* < Portfolio /> */}
+      < Portfolio />
       {/* < Contact /> */}
     </div>
   );
