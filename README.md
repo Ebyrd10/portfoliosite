@@ -1,13 +1,11 @@
-<h1 align="center">Welcome to portfoliosite 👋</h1>
+<h1 align="center">Welcome to my Portfolio Website! 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> A personal portfolio site.e.
+> A personal portfolio website designed in React and powered by React Hooks.
 
-### 🏠 [Homepage](www.EthanMByrd.com)
-
-### ✨ [Demo](www.ethanmbyrd.com)
+### 🏠 [Hosted Site](www.EthanMByrd.com)
 
 ## Install
 
@@ -31,12 +29,5 @@ npm run test
 
 👤 **Ethan Byrd**
 
-* Github: [@ebyrd10](https://github.com/ebyrdrd10)
+* Github: [@Ebyrd10](https://github.com/ebyrd10)
 * LinkedIn: [@ethan-byrd](https://linkedin.com/in/ethan-byrd)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
