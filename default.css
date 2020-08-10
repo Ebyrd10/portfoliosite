@@ -320,6 +320,18 @@ h6 { font-size: 16px;}
 .s1{
     padding-bottom: 25px;
 }
+
+.social_link{
+    font-size: 20px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Width mobile-responsiveness */
 @media screen and (max-width: 1200px){
     .main-container{
