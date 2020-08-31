@@ -106,6 +106,7 @@ h6 { font-size: 16px;}
 #navigation{
     margin: 0;
     padding: 10px;
+    padding-left: 35px;
 }
 
 #navigation li{
@@ -235,7 +236,7 @@ h6 { font-size: 16px;}
 }
 
 #social_image{
-    width: 100%;
+    width: 90%;
 }
 
 .post-wrapper{
